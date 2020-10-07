@@ -1,29 +1,14 @@
 # hacktoberfest-vue-2
 
-## Project setup
-```
-yarn install
-```
+## How this works ?
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+ In order to create your own component, you've to fork this project and create a pull request when you've done!
 
-### Compiles and minifies for production
-```
-yarn build
-```
 
-### Run your unit tests
-```
-yarn test:unit
-```
+# How can I work on this ?
 
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+- Git clone your forked project
+- ``` yarn install ```
+- ``` yarn serve ```
+- Choose one of the _issues_ available
+- Complete that issue on your branch and create a Pull Request
