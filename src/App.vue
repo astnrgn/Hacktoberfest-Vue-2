@@ -1,19 +1,16 @@
 <template>
   <div id="app">
-    <Layout>
-      <div id="nav">
-        <router-link to="/">Home</router-link> |
-        <router-link to="/about">About</router-link>
-      </div>
-      <router-view />
-    </Layout>
+    <Layout />
   </div>
 </template>
 
 <script>
 import Layout from "./components/Layout/Layout";
+
 export default {
-  props: { Layout },
+  components: {
+    Layout,
+  },
 };
 </script>
 
